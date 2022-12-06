@@ -20,7 +20,7 @@ ARG USER_GID=$USER_UID
 
 COPY .devcontainer/library-scripts/*.sh .devcontainer/library-scripts/*.env /tmp/library-scripts/
 
-
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A4B469963BF863CC
 
 # Install needed packages and setup non-root user. Use a separate RUN statement to add your own dependencies.
 
