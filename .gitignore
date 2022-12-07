@@ -1,2 +1,4 @@
 Ignore Data Files
 data/*
+Ignore Large Files in Transformer Model
+esm/*
